@@ -1,0 +1,54 @@
+#generate{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(170, 231, 231);
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+h3{
+    display: inline;
+}
+h1{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.title{
+    font-weight: 100;
+}
+.data{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#distTitle{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+#dist{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+#shapeTitle{
+    position: absolute;
+    left: 170px;
+    top: 100px;
+}
+#shape{
+    position: absolute;
+    top: 120px;
+    left: 170px;
+}
+#heightTitle{
+    position: absolute;
+    left: 320px;
+    top: 100px;
+}
+#height{
+    position: absolute;
+    top: 120px;
+    left: 320px;
+}

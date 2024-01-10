@@ -1,0 +1,69 @@
+#generate{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(170, 231, 231);
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+h3{
+    display: inline;
+}
+h1{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.title{
+    font-weight: 100;
+}
+.data{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+#distTitle{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+#dist{
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+#shapeTitle{
+    position: absolute;
+    left: 170px;
+    top: 150px;
+}
+#shape{
+    position: absolute;
+    top: 170px;
+    left: 170px;
+}
+#heightTitle{
+    position: absolute;
+    left: 320px;
+    top: 150px;
+}
+#height{
+    position: absolute;
+    top: 170px;
+    left: 320px;
+}
+.clubs{
+    display:block;
+}
+#clubTitle{
+    position: absolute;
+    top: 150px;
+    left: 470px;
+}
+#club{
+    position: absolute;
+    top: 170px;
+    left: 470px;
+}

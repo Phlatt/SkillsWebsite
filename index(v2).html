@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+        <h1>Skills Callout</h1>
+        <link rel="stylesheet" href="Skills(v2).css">
+        <script src="Skills(v2).js"></script>
+        <div id = "nav">
+            <style>
+                #nav{
+                    position: fixed;
+                    top: 0px;
+                    height: 50px;
+                    width: 100%;
+                    background-color: teal;
+                    font-size: 150%;
+                    text-align: center;
+                }
+                #nav a{
+                    color: lightgrey;
+                    padding: 1%;
+                }
+            </style>
+            <a href = "index(v2).html">Skills Callout</a>
+            <a href = "skillsCalloutSettings(v2).html">Skills Callout Settings</a>
+            <a href = "skillsProgression(v2).html">Skills Progression</a>
+            <a href = "clubData(v2).html">Club Data</a>
+        </div>
+	</head>
+	<body>
+        <h3 id = "distTitle" class = "title">Distance: </h3>
+        <h3 id = "dist" class = "data"></h3>
+        <h3 id = "shapeTitle" class = "title">Shape: </h3>
+        <h3 id = "shape" class = "data"></h3>
+        <h3 id = "heightTitle" class = "title">Height: </h3>
+        <h3 id = "height" class = "data"></h3>
+        <h3 id = "clubTitle" class = "title">Club:</h3>
+        <h3 id = "club" class = "data"></h3>
+		<button id = "generate" onclick=generate()>Generate</button>
+	</body>
+</html>
